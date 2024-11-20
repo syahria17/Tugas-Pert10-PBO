@@ -2,10 +2,10 @@ package tugas10praktikum;
 import java.util.ArrayList;
 
 public class DataMahasiswa {
-        ArrayList<HitungNilaiMahasiswa> listmahasiswa;
+        ArrayList<HitungNilaiMahasiswa> listmahasiswa = new ArrayList();
         
         public DataMahasiswa(){
-            listmahasiswa = new ArrayList();
+//            listmahasiswa = new ArrayList();
         }
         
         public void insertData (String NIM, String Nama, String Alamat, String MataKuliah, double nilai1, double nilai2, double nilai3, double nilai4, double nilai5) {

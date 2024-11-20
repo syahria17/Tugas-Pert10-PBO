@@ -1,4 +1,4 @@
-package tugas10praktikum;
+ package tugas10praktikum;
 
 public class HitungNilaiMahasiswa {
     private String NIM, Nama, Alamat, MataKuliah;
